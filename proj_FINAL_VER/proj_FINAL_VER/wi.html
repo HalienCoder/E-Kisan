@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="weatherStyle.css">
+</head>
+
+<body class="body">
+
+    <div class="Card">
+        <div class="search">
+            <input id="it-asked" type="text" placeholder="Enter name of city" spellcheck="false"
+                style="text-align: center; font-size: 18px; padding: 12px 20px;">
+            <button><img src="../images/search.png" alt="" style="width: 24px;"></button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name!</p>
+        </div>
+        <div class="weather">
+            <img src="../images/clouds.png" alt="" class="weather-icon" style="width: 120px;">
+            <h1 class="temp">22*c</h1>
+            <h2 class="city">New Delhi</h2>
+            <h4 class="word">cloudy</h4>
+            <div class="details">
+                <div class="col">
+                    <img src="../images/humidity.png" alt="" style="width: 40px;">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img src="../images/wind.png" alt="" style="width: 40px;">
+                    <div>
+                        <p class="wind">15 kmph</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript code remains unchanged
+    </script>
+</body>
+
+</html>
